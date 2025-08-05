@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PlantPal/static/css/main.78d8a3c3.css",
+    "main.js": "/PlantPal/static/js/main.3c1cf618.js",
+    "index.html": "/PlantPal/index.html",
+    "main.78d8a3c3.css.map": "/PlantPal/static/css/main.78d8a3c3.css.map",
+    "main.3c1cf618.js.map": "/PlantPal/static/js/main.3c1cf618.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78d8a3c3.css",
+    "static/js/main.3c1cf618.js"
+  ]
+}
