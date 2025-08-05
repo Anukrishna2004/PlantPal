@@ -1,0 +1,151 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background: #e1d8ca;
+  min-height: 80vh; /* Keep hero tall */
+}
+
+.hero-text {
+  flex: 1;
+  text-align: center;  /* Center align text + button */
+  margin-top: -30px;   /* Slightly lift text */
+}
+
+/* Hero Heading */
+.hero-text h1 {
+  font-size: 3.8rem;  /* Bigger */
+  font-weight: 700;
+  color: #2d572c;     /* Deep plant green */
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15); /* Clean shadow */
+  line-height: 1.2;
+  font-family: 'Playfair Display', serif; /* Elegant serif font */
+}
+
+/* Subheading */
+.hero-text p {
+  font-size: 1.4rem;  /* Larger */
+  color: #3a3a3a;
+  margin-bottom: 25px;
+  font-family: 'Inter', sans-serif; /* Modern sans-serif */
+}
+
+/* Quotes */
+.quotes {
+  margin: 30px auto 40px auto;
+  text-align: center;
+  font-style: italic;
+  color: #2d572c;
+  font-size: 1.4rem;   /* Bigger */
+  line-height: 1.8;
+  max-width: 700px;
+  font-family: 'Inter', sans-serif;
+}
+
+.quotes p {
+  margin-bottom: 15px;
+}
+
+/* Button */
+.hero-btn {
+  background: #2d572c;
+  color: white;
+  padding: 14px 34px;   /* Bigger button */
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;    /* Larger text */
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #244423;
+  transform: scale(1.05);  /* Subtle grow */
+}
+
+/* Hero Image */
+.hero-image img {
+  max-width: 420px;   /* Slightly bigger */
+  border-radius: 10px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .hero-image img {
+    max-width: 320px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.6rem; /* Adjust for mobile */
+  }
+
+  .hero-text p,
+  .quotes {
+    font-size: 1.2rem;
+  }
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 12%;  /* More breathing space */
+  background: #fdfdf8;
+  border-top: 4px solid #2d572c;
+}
+
+.about-left {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.about-left h2 {
+  font-size: 3.5rem;   /* Much bigger */
+  font-weight: 800;
+  color: #2d572c;
+  text-shadow: 1px 2px 6px rgba(0,0,0,0.1); /* Soft shadow */
+  line-height: 1.3;
+  font-family: 'Playfair Display', serif;
+}
+
+.about-right {
+  flex: 2;
+}
+
+.about-right p {
+  font-size: 1.5rem;  /* Bigger paragraph */
+  color: #3a3a3a;
+  line-height: 2;     /* More readability */
+  font-family: 'Inter', sans-serif;
+  max-width: 600px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 900px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 8%;
+  }
+
+  .about-left h2 {
+    font-size: 2.4rem;
+  }
+
+  .about-right p {
+    font-size: 1.2rem;
+  }
+}

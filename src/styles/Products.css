@@ -1,0 +1,73 @@
+.products {
+  text-align: center;
+  padding: 80px 10%;
+  background: #f7f5ef;
+}
+
+.products h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #2d572c;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+/* Plant Grid */
+.plant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Plant Card */
+.plant-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plant-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.plant-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Plant Name */
+.plant-card h3 {
+  font-size: 1.5rem;
+  color: #2d572c;
+  margin-bottom: 10px;
+}
+
+/* Plant Description */
+.plant-card p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Rent Button */
+.plant-card button {
+  background: #2d572c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.plant-card button:hover {
+  background: #244423;
+}
